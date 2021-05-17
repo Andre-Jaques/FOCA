@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  main{
+    height: 90vh;
+    width: 100vw;
+    background: #Fff;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  #container{
+    width: 85vw;
+    height:80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    width: 40vw;
+    margin: auto 0;
+  }
+  
+  #formulario>h1{
+    font-size: 2.5em;
+    color: #552583;
+    
+
+  }
+  
+  #login{
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+  }
+  
+  #login>div{
+    width: 40vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  #login>div>input{
+    width: 30vw;
+    border-top: none;
+    border-color: #fff;
+    border-bottom-color: #552583;
+    border-width: 2px;
+    border-style: solid;
+    
+  }
+  
+  input::placeholder{
+    padding: 0 2em;
+    color: gray;
+    font-family: 'Prompt', sans-serif;
+
+  }
+  
+  input:focus { /*retirar borda quando clicar no input*/
+      box-shadow: 1 0 0 0;
+      outline: 0;
+  }
+  
+  #entrar{
+    width: 30vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  button{
+    width: 14vw;
+    height: 6vh;
+    border-color: #FDB927;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #FDB927;
+    color:#552583;
+    font-size: 1.3em;
+    font-family: 'Prompt', sans-serif;
+    box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.25);
+  }
+  
+  button>a{
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  button:focus { /*retirar borda quando clicar no input*/
+      box-shadow: 0 0 0 0;
+      outline: 0;
+  }
+  
+  button:hover{
+    opacity:0.8;
+  }
+  
+  #entrar>a{
+    width: 14vw;
+    color: #00022E;
+  }
+  
+  #contas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 40vw;
+    margin: auto 0;
+  }
+  
+  #icons{
+    display: flex;
+    justify-content: space-around;
+    width: 13vw;
+    
+  }
+  
+  #icons>a>img{
+    width: 3em;
+  }
+  
+  #contas>p>a{
+    text-decoration: none;
+    color: #552583;
+  }
+  

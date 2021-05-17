@@ -1,0 +1,63 @@
+.containerMenu{
+    width:100vw;
+    height:10vh;
+    background: #552583;
+    font-family: 'Prompt', sans-serif;
+    
+    
+}
+
+.containerHeader{
+    width:90vw;
+    height:10vh;
+    margin:0 auto;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5em;
+    align-items: center;
+    height: 10vh;
+    
+  }
+
+  nav>a{
+    text-decoration: none;
+  }
+  
+  #logo{
+    color: white;
+    
+    font-size: 2em;
+  }
+  
+  #menu{
+    display: flex;
+    width: 25em;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #menu >li{
+    list-style: none;
+    font-size: 1.1em;
+    
+    
+  }
+  
+  li>a{
+    text-decoration: none;
+    
+  }
+  
+  .nomeMenu{
+    color: white;
+    
+  }
+  
+  #menu>img{
+    width: 10%;
+  }
+  

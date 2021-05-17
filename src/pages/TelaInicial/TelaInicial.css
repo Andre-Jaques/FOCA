@@ -1,0 +1,44 @@
+.containerInicial{
+    width:100vw;
+    height:100vh;
+    /*background-color: #552583;*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#conteudoInicial{
+    width:80vw;
+    height:70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+#tituloInicial{
+    font-size:5em;
+    width:80vw;
+    height:50vh;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 4px #FDB927;
+}
+
+#botaoInicial{
+    font-size:4em;
+    width:20vw;
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #552583;
+}
