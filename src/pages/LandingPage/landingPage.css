@@ -1,19 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 #mainLanding{
     height: 200vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
     align-items: center;
+    
   }
   
   #principal{
     height: 80vh;
     width: 100vw;
-    background: #E2F4FF;
+    
   }
-  
-  
+
   
   #principal .container{
     display: flex;
@@ -34,34 +40,34 @@
   }
   
   #titulo{
-    width: 50%;
-   
-    font-size: 3.5em;
+    width: 90%;
+    font-size: 3.2em;
     text-align: center;
-    color: #00056A;
+    color: #552583;
     font-family: 'Prompt', sans-serif; /*bold*/
   
   }
   
   #subtitulo{
     width: 70%;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     font-weight: none;
     font-family: 'Prompt', sans-serif;/*regular*/
+    color:#4F4E4E;
   }
   
   button{
-    width: 14vw;
-    height: 6vh;
-    border-color: #069AF3;
+    width: 11vw;
+    height: 8vh;
+    border-color: #552583;
     border-radius: 10px;
     cursor: pointer;
-    background: #069AF3;
+    background: #552583;
     color:white;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'Prompt', sans-serif;
-    font-weight: 600;
+    
     box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.25);
   }
   
@@ -75,9 +81,9 @@
   }
   
   .cadastre{
-    width: 40%;
+    width: 80%;
     text-align: center;
-    font-family: 'Prompt', sans-serif;
+    
   }
   
   .cadastre a{
