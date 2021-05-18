@@ -13,7 +13,7 @@ function TelaInicial() {
                 <section id="conteudoInicial">
                     <h1 id="tituloInicial">VAMOS CONHECER O FOCA?</h1>
 
-                    <button id="botaoInicial" onClick={()=> botaoInicial('/Login')}> <AiOutlineArrowRight /> </button>
+                    <button id="botaoInicial" onClick={()=> botaoInicial('/landingpage')}> <AiOutlineArrowRight /> </button>
                 </section>
             </main>
         </>

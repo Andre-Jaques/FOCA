@@ -11,13 +11,16 @@ import {
     import Teste from '../pages/Teste/teste';
     import Teste2 from '../pages/Teste/teste2';
     import NotFound from '../pages/NotFound/notFound';
+    import LandingPage from '../pages/LandingPage/landingPage';
     //import {TransitionGroup, CSSTransition} from 'react-transition-group';
     
     export default function MainRoutes(){
         return(
             
             <Routes >
+                <Route path="/landingpage" element={<LandingPage />} />
                 <Route path="/" element={<TelaInicial />} />
+                
                 <Route path="/login" element={<Login />} />
                 <Route path="/regras" element={<Regras />} />
 
