@@ -9,7 +9,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     align-items: center;
     
   }
@@ -17,6 +17,7 @@
   #principal{
     height: 80vh;
     width: 100vw;
+    
     
   }
 
@@ -28,6 +29,7 @@
     width: 90vw;
     margin: 0 auto;
     height: 80vh;
+    
   }
   
   #blocoTitulo{
@@ -88,11 +90,16 @@
   
   .cadastre a{
     text-decoration: none;
-    color: #069AF3;
+    color: #552583;
   }
   
   #imgPrincipal{
     width: 40vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   
@@ -107,6 +114,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
   }
   
   #print .container{
@@ -114,13 +123,15 @@
     height: 45vh;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   
   }
   
   #textoPrint{
-    width: 40vw;
-    height: 25vh;
+    width: 70vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,38 +140,24 @@
   }
   
   #textoPrint h2{
-    width: 90%;
+    width: 70vw;
     height: 20vh;
     font-size: 1.9em;
-    color: #00056A;
+    color: #552583;
     font-family: 'Prompt', sans-serif;
   }
   
   #textoPrint p{
-    width: 60%;
+    width: 70vw;
     height: 15vh;
     font-size: 1.1em;
     font-family: 'Prompt', sans-serif;
   }
   
-  #imgPrint{
-    width: 50vw;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #imgPrint>img{
-    width: 75%;
-    box-shadow: rgb(148, 148, 148) 0.2em 0.2em 0.2em;
-    
-  }
-  
   #depoimentos{
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
-    background: #E2F4FF;
+    background: #FFF5E0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,9 +174,10 @@
   }
   
   #tituloDepoimento{
-    color: #00056A;
+    color: #552583;
     font-family: 'Prompt', sans-serif;
     font-size: 1.9em;
+    
   }
   
   #containerDepoimentos{ 
@@ -191,9 +189,9 @@
   }
   
   .boxDepoimento{
-    padding: 1.2em;
-    width: 30vw;
-    height: 30vh;
+    padding: 1em;
+    width: 40vw;
+    height: 45vh;
     background: #fff;
     border-radius: 10px;
     display: flex;
@@ -203,14 +201,14 @@
   }
   
   .aspas{
-    width: 30vw;
+    width: 35vw;
     height: 8vh;
-    font-size: 1.5em;
-    color: #00056A;
+    font-size: 1.3em;
+    color: #552583;
   }
   
   .boxDoComentario{
-    width: 25vw;
+    width: 35vw;
     height: 14vh;
     font-size: 1em;
     color: rgb(156, 155, 155);
@@ -218,7 +216,7 @@
   
   .perfilEnome{
     width: 30vw;
-    height: 5vh;
+    height: 8vh;
     display: flex;
     align-items: center;
   }
@@ -233,4 +231,9 @@
   
   .imgPerfilDepoimento img{
     width: 50%;
+  }
+
+  .nomeEstudante{
+    color: rgb(156, 155, 155);
+
   }
