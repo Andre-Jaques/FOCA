@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from '../../menu';
 import './landingPage.css';
+import BoxAmarelo from './boxAmarelo.js';
 import principal from '../../image/estudante.png';
 import avatar from '../../image/homem-de-negocios.png';
 import {useNavigate} from 'react-router-dom';
@@ -106,6 +107,30 @@ function LandingPage() {
 
                     </div>
 
+                </section>
+
+                <section id="planos">
+                    <div className="container">
+
+                        <h2 className="tituloPlano">Conheça nossos planos</h2>
+
+                        <section className="containerIndividual">
+
+                            <h3 className="tituloIndividual">INDIVIDUAL</h3>
+
+                            <BoxAmarelo
+                            titulo='Grátis'
+                            PrimeiraDescrição='1 Prova de desempenho por semana'
+                            Sim='../../image/sim.png'
+                            Nao='nao'
+                            />  
+                            <BoxAmarelo
+                            titulo='Grátis'
+                            PrimeiraDescrição='1 Prova de desempenho por semana'
+                            />  
+
+                        </section>
+                    </div>
                 </section>
 
             </main>

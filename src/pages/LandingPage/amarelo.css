@@ -1,0 +1,46 @@
+.containerArticos{
+    width:90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artico{
+    width:20vw;
+    height:60vh;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 5px rgba(107, 107, 107, 0.404);
+    
+}
+
+aside{
+    width:20vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #DAD9D9;
+}
+
+.imgIcon{
+    width:1.5em;
+    height:1.5em;
+}
+
+.descricaoDoPlano{
+    width:15vw;
+    height:9vh;
+    display: flex;
+    align-items: center;
+    font-size:0.8em;
+    text-align: left;
+}
+
+#Amarelo{
+    border-top: none;
+    background: #FDB927;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size:1.3em;
+}
