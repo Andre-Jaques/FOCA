@@ -45,9 +45,9 @@ function BoxAmarelo(props) {
                     <p className="descricaoDoPlano">Horário de estudo personalizado</p>
                     </aside>
 
-                    </section>
+                </section>
 
-                </div>
+            </div>
            
         </>
     )

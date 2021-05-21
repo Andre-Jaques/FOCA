@@ -24,7 +24,17 @@ nav{
   }
 
   nav>a{
-    text-decoration: none;
+    height:10vh;
+    width:10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav>a>img{
+    width:6vw;
+    height:10vh;
+    
   }
   
   #logo{

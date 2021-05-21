@@ -1,7 +1,7 @@
 import './menu.css';
 import React from 'react';
 import avatar from './image/homem-de-negocios.png';
-
+import Logo from './image/focaAmarelo.jpeg'
 
 function Menu() {
   return (
@@ -9,7 +9,7 @@ function Menu() {
         <header className="containerHeader">
             <nav className="containerHeader">
                 <a href="/">
-                    <h1 id="logo">FOCA</h1>
+                    <img src={Logo} alt="Logomarca"/>
                 </a>
 
                 <ul id="menu">

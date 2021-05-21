@@ -5,11 +5,10 @@
 }
 
 #mainLanding{
-    height: 200vh;
+    height: 280vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
     align-items: center;
     
   }
@@ -155,7 +154,7 @@
   }
   
   #depoimentos{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     background: #FFF5E0;
     display: flex;
@@ -235,5 +234,9 @@
 
   .nomeEstudante{
     color: rgb(156, 155, 155);
+
+  }
+
+  #planos{
 
   }

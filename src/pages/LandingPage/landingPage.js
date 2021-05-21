@@ -124,10 +124,7 @@ function LandingPage() {
                             Sim='../../image/sim.png'
                             Nao='nao'
                             />  
-                            <BoxAmarelo
-                            titulo='Grátis'
-                            PrimeiraDescrição='1 Prova de desempenho por semana'
-                            />  
+                            
 
                         </section>
                     </div>

@@ -4,7 +4,6 @@
     background-color: #552583;
     
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -12,11 +11,10 @@
 }
 
 #conteudoInicial{
-    width:80vw;
-    height:70vh;
+    width:90vw;
+    height:90vh;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     
@@ -25,18 +23,34 @@
 
 #tituloInicial{
     font-size:5em;
-    width:80vw;
-    height:50vh;
+    width:50vw;
+    height:65vh;
     display: flex;
     text-align: center;
     color: #fff;
     text-shadow: 2px 4px #FDB927;
 }
 
+#boxInicial{
+    width:40vw;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure{
+    height:50vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #botaoInicial{
-    font-size:4em;
-    width:20vw;
-    height:15vh;
+    font-size:3em;
+    width:15vw;
+    height:12vh;
     display: flex;
     justify-content: center;
     align-items: center;
